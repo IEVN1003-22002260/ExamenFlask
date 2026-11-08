@@ -1,0 +1,17 @@
+
+
+    {% extends "layout.html" %}
+
+    {% block container %}
+    
+    <h1>Materia PWA</h1>
+    <h2>IEVN-1003 JINJA2</h2>
+
+    <h1>{{titulo}}</h1>
+
+    <!-- va a recorrer una list -->
+    {%for nom in listado %}
+    <li>{{nom}}</li>
+    {%endfor%}
+    
+    {% endblock %}

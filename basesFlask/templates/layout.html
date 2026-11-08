@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="../static/bootstrap/css/bootstrap.min.css">
+    <style>
+        body{
+            padding-top: 60px;}
+ 
+            .tr-head{background: #dff0d8;}  
+    </style>
+    <link href="../static/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <title>PWA</title>
+</head>
+<body>
+    <div class="navbar navbar navbar-inverse navbar-fixed-top">
+       
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="brand" href="">
+                    IEVN-1003
+                </a>
+           
+            <ul class="nav">
+                <li class="active">
+                    <a href="">
+                        <i class="icon-home icon-white"></i>
+                        Inicio
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="icon-user icon-white"></i>
+                        Usuarios
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <i class="icon-user icon-white"></i>
+                        Alumnos
+                    </a>
+                </li>
+            </ul>
+        </div>
+       </div>
+    </div>
+ 
+   <div class="container">
+    <div class="row">
+ 
+<!--  DIRECTIVA DE JINJA PARA QUE LA PAGINA SE QUEDE EN ESA POSICION Y SE COMPARTIRA EL ESTILO EN TODAS LAS PAGINAS
+ -->       
+        {%block container%}  
+ 
+        {%endblock%}
+     
+ 
+    </div>
+   </div>
+</body>
+</html>
